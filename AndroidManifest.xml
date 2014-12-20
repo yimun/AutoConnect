@@ -30,7 +30,7 @@
             </intent-filter>
         </receiver>
 
-        <service android:name=".MyService" >
+        <service android:name=".ConnectService" >
         </service>
     </application>
 

@@ -47,7 +47,7 @@ public class MainActivity extends ActionBarActivity implements OnClickListener {
 	@Override
 	public void onClick(View v) {
 		// TODO Auto-generated method stub
-		Intent in = new Intent(this, MyService.class);
+		Intent in = new Intent(this, ConnectService.class);
 		switch (v.getId()) {
 		case R.id.button1:
 			this.startService(in);
